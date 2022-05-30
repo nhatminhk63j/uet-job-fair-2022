@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import bannerImage from '../../../../images/HomePage/banner.png'
+import bannerImage from '../../../../images/HomePage/banner.jpg'
 
 const Banner = () => {
   return <div className={'banner'}>

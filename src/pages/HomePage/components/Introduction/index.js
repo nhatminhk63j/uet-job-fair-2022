@@ -1,20 +1,8 @@
 import React from 'react';
 import './style.css';
-import introImage from '../../../../images/HomePage/introduction.png';
+import introImage from '../../../../images/HomePage/introduction.jpg';
 import {Col, Container, Row} from 'react-bootstrap';
-import ReactTextCollapse from 'react-text-collapse';
 import ReactShowMoreText from 'react-show-more-text';
-
-const TEXT_COLLAPSE_OPTIONS = {
-  collapse: false,
-  collapseText: <span>... xem thêm</span>,
-  expandText: 'rút gọn',
-  minHeight: 430,
-  maxHeight: 1000,
-  textStyle: {
-    color: 'orange', fontSize: '20px',
-  },
-};
 
 const Introduction = () => {
   return <div className={'intro-content'}>
