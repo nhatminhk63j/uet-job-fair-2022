@@ -1,0 +1,46 @@
+.intro-content {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.intro-content .intro-content-title {
+}
+
+.intro-content .intro-content-image {
+    width: 100%;
+    border-radius: 3rem;
+}
+
+.line {
+    margin: 10px;
+    width: 112px;
+    height: 1px;
+    background-color: #ed941c;
+}
+
+.intro-content .intro-content-content {
+    font-size: 1.2rem;
+}
+
+.button-show {
+    color: #fff;
+    background: #ed941c;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.content-show-more-text a {
+    text-decoration: none;
+}
+
+.sponsor-profile-link {
+    color: #ed941c;
+    text-decoration: underline!important;
+    font-weight: bold;
+}
+
+.sponsor-profile-link:hover {
+    color: #d58618;
+}

@@ -1,0 +1,17 @@
+.menu {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: white!important;
+}
+
+.menu .nav-link {
+    color: white !important;
+}
+
+.menu .navbar-brand {
+    color: white !important;
+}
+
+.menu .bg-dark {
+    background: #062a46 !important;
+}

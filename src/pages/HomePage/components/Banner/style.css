@@ -1,0 +1,29 @@
+.banner {
+    text-align: center;
+    position: relative;
+}
+
+.banner .banner-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.banner .banner-content p {
+    font-size: 1.3rem;
+}
+
+.banner .banner-image {
+    width: 100%;
+    object-fit: cover;
+    min-height: 300px;
+    max-height: 400px;
+    opacity: 0.2;
+}
+
+@media only screen and (max-width: 770px) {
+    .banner .banner-image {
+        min-height: 400px;
+    }
+}
