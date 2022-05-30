@@ -19,7 +19,7 @@ const Introduction = () => {
         <Col xs={12} md={6} className={'intro-content-content'}>
           <p> Học kỳ 2 năm học 2021 – 2022, Trường Đại học Công nghệ - ĐHQGHN
             có
-            gần xxx sinh viên chuẩn bị tốt nghiệp, và trên xxxx sinh viên
+            gần 1000 sinh viên chuẩn bị tốt nghiệp, và trên 1500 sinh viên
             chuẩn
             bị đăng ký thực tập tại doanh nghiệp. Để hỗ trợ cho sinh viên tìm
             kiếm được việc làm và nơi thực tập phù hợp nhất, Nhà trường đã xây
@@ -79,7 +79,7 @@ const Introduction = () => {
                 <div><b>Nhà trường sẽ tổ chức JobFair 2022 theo kế hoạch
                   sau:</b>
                   <ul>
-                    <li>Thời gian: Thứ tư, ngày 26/6/2022.</li>
+                    <li>Thời gian: Thứ tư, ngày 29/6/2022.</li>
                     <li>Địa điểm: Khu vực sân chính E1, E3, E4 và G2, Trường Đại
                       học Công nghệ -
                       ĐHQGHN
