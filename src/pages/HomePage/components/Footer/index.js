@@ -22,7 +22,7 @@ const Footer = () => {
         </Col>
         <Col xs={12} md={6} className={'footer-col'}>
           <h5>NGÀY HỘI VIỆC LÀM CÔNG NGHỆ - UET JOB FAIR 2022</h5>
-          <div>© VNU-UET-Faculty of Information Technology. All rights reserved.</div>
+          <div>© VNU - University of Engineering and Technology. All rights reserved.</div>
         </Col>
       </Row>
     </Container>

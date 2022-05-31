@@ -17,36 +17,25 @@ const Introduction = () => {
           <img src={introImage} alt="" className="intro-content-image" />
         </Col>
         <Col xs={12} md={6} className={'intro-content-content'}>
-          <p> Học kỳ 2 năm học 2021 – 2022, Trường Đại học Công nghệ - ĐHQGHN
-            có
-            gần 1000 sinh viên chuẩn bị tốt nghiệp, và trên 1500 sinh viên
-            chuẩn
-            bị đăng ký thực tập tại doanh nghiệp. Để hỗ trợ cho sinh viên tìm
-            kiếm được việc làm và nơi thực tập phù hợp nhất, Nhà trường đã xây
-            dựng kế hoạch hướng nghiệp cho sinh viên, bao gồm các hội thảo
-            hướng
-            nghiệp, đăng tin tuyển dụng, tiến cử hồ sơ theo yêu cầu,… và tổ
-            chức
-            JobFair.
+          <p> Với quy mô sinh viên tăng đều hàng năm cả về chất và lượng, đầy sức trẻ và
+            nhiệt huyết, Trường Đại học Công nghệ đã liên tục lớn mạnh, tự hào là một trong
+            những đơn vị đào tạo có uy tín và chất lượng về các ngành công nghệ mũi nhọn,
+            có thể kể đến như: Công nghệ thông tin, Công nghệ Hàng không Vũ trụ, Công
+            nghệ Xây dựng - Giao thông, Công nghệ Nông nghiệp, Trí tuệ Nhân tạo, Điện tử -
+            Viễn thông, Cơ học Kỹ thuật & Tự động hóa, Vật lý kỹ thuật & Công nghệ Nano...
+            nhằm đào tạo nhân lực chất lượng cao cho các doanh nghiệp, các trung tâm và
+            viện nghiên cứu lớn. Trường Đại học Công nghệ hiện là đối tác đào tạo của các
+            doanh nghiệp, tập đoàn lớn như: Viettel, FPT, Samsung, Toshiba, Panasonic,
+            Nissan, IMI Holdings...
           </p>
           <p> Sự kiện Job-Fair 2022 được tổ chức nhằm mục tiêu:
           </p>
           <ul>
-            <li>Tạo điều kiện để 20 - 25 doanh nghiệp tiếp cận lựa chọn nguồn
+            <li>Tạo điều kiện để 30 - 40 doanh nghiệp tiếp cận lựa chọn nguồn
               nhân lực
               chất lượng cao và cơ hội quảng bá thương hiệu nhà tuyển dụng tại
               Đại
               học Công nghệ - ĐHQGHN.
-            </li>
-            <li> Tạo môi trường cho sinh viên Việt Nam và sinh viên quốc tế
-              đang
-              học
-              tại trường Đại học Công nghệ - ĐHQGHN gặp gỡ, giao lưu và tìm
-              kiếm cơ hội tuyển dụng
-              trực
-              tiếp tại ngày hội như việc làm bán thời gian, thực tập và làm
-              việc
-              chính thức.
             </li>
             <li>
               <ReactShowMoreText

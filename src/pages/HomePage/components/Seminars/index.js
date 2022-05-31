@@ -27,7 +27,7 @@ const settings = {
 };
 
 const Seminars = () => {
-  return <div id={"seminars"} className={'text-center mt-5'}>
+  return <div id={'seminars'} className={'text-center mt-5'}>
     <Container>
       <div className="d-flex justify-content-center mt-5">
         <div className="line" />
@@ -39,21 +39,26 @@ const Seminars = () => {
         <div className={'seminar-slide'}>
           <h4>HỘI THẢO</h4>
           <h5>BÍ QUYẾT CHINH PHỤC NHÀ TUYỂN DỤNG</h5>
-          <p>Tư vấn, định hướng nghề nghiệp, hướng dẫn hoàn thiện CV, chuẩn bị các
-            kỹ năng cần thiết khi tham gia phỏng vấn.</p>
+          <p>Cung cấp cho sinh viên những kỹ năng cần thiết để hoàn
+            thiện bản thân, hoàn thiện CV, cách thức trả lời phỏng vấn
+            để chinh phục nhà tuyển dụng.</p>
           <p>Thời gian: 14h00 thứ Bảy, ngày 18/6/2022.</p>
         </div>
         <div className={'seminar-slide'}>
           <h4>HỘI THẢO</h4>
           <h5>GIẢI TỎA CẢM XÚC TIÊU CỰC - LẤY LẠI TỰ TIN</h5>
-          <p>Tư vấn tâm lý, truyền cảm hứng.</p>
-          <p>Thời gian: 14h00 thứ Bảy, ngày 18/6/2022.</p>
+          <p>Tư vấn, giải tỏa cảm giác lo âu, tiêu cực cho sinh viên,
+            truyền cảm hứng để sinh viên có đủ tự tin chinh phục
+            những khó khăn và thách thức trong quá trình học tập,
+            nghiên cứu, thực hiện được ước mơ, hoài bão.</p>
+          <p>Thời gian: 14h00 chủ nhật, ngày 19/6/2022.</p>
         </div>
         <div className={'seminar-slide'}>
           <h4>HỘI THẢO</h4>
           <h5>BÍ QUYẾT CHINH PHỤC NHÀ TUYỂN DỤNG</h5>
-          <p>Tư vấn, định hướng nghề nghiệp, hướng dẫn hoàn thiện CV, chuẩn bị các
-            kỹ năng cần thiết khi tham gia phỏng vấn.</p>
+          <p>Cung cấp cho sinh viên những kỹ năng cần thiết để hoàn
+            thiện bản thân, hoàn thiện CV, cách thức trả lời phỏng vấn
+            để chinh phục nhà tuyển dụng.</p>
           <p>Thời gian: 14h00 thứ Bảy, ngày 18/6/2022.</p>
         </div>
       </Slider>
