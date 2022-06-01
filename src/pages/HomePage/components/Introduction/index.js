@@ -21,10 +21,14 @@ const Introduction = () => {
             sức trẻ và nhiệt huyết, Trường Đại học Công nghệ đã liên tục lớn
             mạnh, tự hào là một trong những đơn vị đào tạo có uy tín và chất
             lượng về các ngành công nghệ mũi nhọn, có thể kể đến như: Công nghệ
-            thông tin, Công nghệ Hàng không Vũ trụ, Công nghệ Xây dựng - Giao
-            thông, Công nghệ Nông nghiệp, Trí tuệ Nhân tạo, Điện tử - Viễn
-            thông, Cơ học Kỹ thuật & Tự động hóa, Vật lý kỹ thuật & Công nghệ
-            Nano... nhằm đào tạo nhân lực chất lượng cao cho các doanh nghiệp,
+            thông tin; Công nghệ thông tin định hướng thị trường Nhật Bản; Kỹ
+            thuật Robot; Vật lý kỹ thuật; Cơ kỹ thuật; Công nghệ kỹ thuật xây
+            dựng; Công nghệ Hàng không vũ trụ; Công nghệ nông nghiệp; Kỹ thuật
+            điều khiển & tự động hóa; Trí tuệ nhân tạo; Kỹ thuật năng lượng;
+            Công nghệ kỹ thuật cơ điện tử; Khoa học máy tính; Hệ thống thông
+            tin; Mạng máy tính và truyền thông dữ liệu; Công nghệ kỹ thuật điện
+            tử viễn thông nhằm
+            đào tạo nhân lực chất lượng cao cho các doanh nghiệp,
             các trung tâm và viện nghiên cứu lớn. Trường Đại học Công nghệ hiện
             là đối tác đào tạo của các doanh nghiệp, tập đoàn lớn như: Viettel,
             FPT, Samsung, Toshiba, Panasonic, Nissan, IMI Holdings...
