@@ -32,7 +32,7 @@ const Timeline = () => {
     <div className="timeline">
       <div className="timeline-row">
         <div className="timeline-time">
-          Thứ bảy, 18/6/2022<small>14 giờ 00 phút</small>
+          Thứ Bảy, 18/6/2022<small>14 giờ 00 phút</small>
         </div>
         <div className="timeline-content">
           <h4>Hội thảo 1</h4>
@@ -42,7 +42,7 @@ const Timeline = () => {
 
       <div className="timeline-row">
         <div className="timeline-time">
-          Chủ nhật, 19/6/2022<small>14h00 chủ nhật</small>
+          Chủ Nhật, 19/6/2022<small>14 giờ 00 phút</small>
         </div>
         <div className="timeline-content">
           <h4>Hội thảo 2</h4>
@@ -51,7 +51,7 @@ const Timeline = () => {
       </div>
 
       <div className="timeline-row">
-        <div className="timeline-time">Thứ tư, 29/6/2022<small></small>
+        <div className="timeline-time">Thứ Tư, 29/6/2022<small></small>
         </div>
         <div className="timeline-content">
           <h4>UET JobFair 2022</h4>
@@ -63,7 +63,7 @@ const Timeline = () => {
 
       <div className="timeline-row">
         <div className="timeline-time">
-          Tối thứ tư, ngày 29/6/2022<small></small>
+          Tối thứ Tư, ngày 29/6/2022<small></small>
         </div>
         <div className="timeline-content">
           <h4>Dấu ấn K63</h4>

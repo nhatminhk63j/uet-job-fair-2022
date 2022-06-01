@@ -17,16 +17,17 @@ const Introduction = () => {
           <img src={introImage} alt="" className="intro-content-image" />
         </Col>
         <Col xs={12} md={6} className={'intro-content-content'}>
-          <p> Với quy mô sinh viên tăng đều hàng năm cả về chất và lượng, đầy sức trẻ và
-            nhiệt huyết, Trường Đại học Công nghệ đã liên tục lớn mạnh, tự hào là một trong
-            những đơn vị đào tạo có uy tín và chất lượng về các ngành công nghệ mũi nhọn,
-            có thể kể đến như: Công nghệ thông tin, Công nghệ Hàng không Vũ trụ, Công
-            nghệ Xây dựng - Giao thông, Công nghệ Nông nghiệp, Trí tuệ Nhân tạo, Điện tử -
-            Viễn thông, Cơ học Kỹ thuật & Tự động hóa, Vật lý kỹ thuật & Công nghệ Nano...
-            nhằm đào tạo nhân lực chất lượng cao cho các doanh nghiệp, các trung tâm và
-            viện nghiên cứu lớn. Trường Đại học Công nghệ hiện là đối tác đào tạo của các
-            doanh nghiệp, tập đoàn lớn như: Viettel, FPT, Samsung, Toshiba, Panasonic,
-            Nissan, IMI Holdings...
+          <p> Với quy mô sinh viên tăng đều hàng năm cả về chất và lượng, đầy
+            sức trẻ và nhiệt huyết, Trường Đại học Công nghệ đã liên tục lớn
+            mạnh, tự hào là một trong những đơn vị đào tạo có uy tín và chất
+            lượng về các ngành công nghệ mũi nhọn, có thể kể đến như: Công nghệ
+            thông tin, Công nghệ Hàng không Vũ trụ, Công nghệ Xây dựng - Giao
+            thông, Công nghệ Nông nghiệp, Trí tuệ Nhân tạo, Điện tử - Viễn
+            thông, Cơ học Kỹ thuật & Tự động hóa, Vật lý kỹ thuật & Công nghệ
+            Nano... nhằm đào tạo nhân lực chất lượng cao cho các doanh nghiệp,
+            các trung tâm và viện nghiên cứu lớn. Trường Đại học Công nghệ hiện
+            là đối tác đào tạo của các doanh nghiệp, tập đoàn lớn như: Viettel,
+            FPT, Samsung, Toshiba, Panasonic, Nissan, IMI Holdings...
           </p>
           <p> Sự kiện Job-Fair 2022 được tổ chức nhằm mục tiêu:
           </p>
@@ -68,7 +69,7 @@ const Introduction = () => {
                 <div><b>Nhà trường sẽ tổ chức JobFair 2022 theo kế hoạch
                   sau:</b>
                   <ul>
-                    <li>Thời gian: Thứ tư, ngày 29/6/2022.</li>
+                    <li>Thời gian: Thứ Tư, ngày 29/6/2022.</li>
                     <li>Địa điểm: Khu vực sân chính E1, E3, E4 và G2, Trường Đại
                       học Công nghệ -
                       ĐHQGHN
