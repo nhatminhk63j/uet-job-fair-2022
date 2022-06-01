@@ -3,7 +3,7 @@ import './style.css';
 import {Container} from 'react-bootstrap';
 
 const Timeline = () => {
-  return (<Container className={'text-center mt-5'} id={"timeline"}>
+  return (<Container className={'text-center mt-5'} id={'timeline'}>
     <div className="d-flex justify-content-center text-center">
       <div className="line" />
       <h4 className="intro-content-title">CÁC MỐC THỜI GIAN NGÀY HỘI</h4>
@@ -19,7 +19,9 @@ const Timeline = () => {
           vị được “ẩn giấu” trong các gian hàng chờ bạn khám phá!
         </p>
         <div className="wrap">
-          <button className={'register-button mb-3'}>THAM GIA NGAY!</button>
+          <a href="https://forms.gle/va9KeTft34ApUdMTA" target="_blank">
+            <button className={'register-button mb-3'}>THAM GIA NGAY!</button>
+          </a>
         </div>
 
         <p className="mb-5">Đây là cơ hội mở cho tất cả các bạn, nếu chưa sẵn
