@@ -5,6 +5,7 @@ import Introduction from './components/Introduction';
 import Seminars from './components/Seminars';
 import Timeline from './components/Timeline';
 import Footer from './components/Footer';
+import Sponsors from './components/Sponsors';
 
 const HomePage = () => {
   return <>
@@ -13,6 +14,7 @@ const HomePage = () => {
     <Introduction />
     <Seminars />
     <Timeline />
+    <Sponsors />
     <Footer />
   </>;
 };

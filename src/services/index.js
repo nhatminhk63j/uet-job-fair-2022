@@ -1,0 +1,1 @@
+export {default as companyService} from './apis/company';

@@ -1,0 +1,24 @@
+.company-info {
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0,0,0,.253);
+}
+
+.company-info img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.company-info h5 {
+    color: #ed941c;
+}
+
+.company-description {
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0,0,0,.253);
+}
+
+.company-description-title {
+    color: #ed941c;
+}
