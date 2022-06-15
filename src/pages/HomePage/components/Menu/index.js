@@ -8,13 +8,11 @@ const Menu = () => {
       <Container>
         <Navbar.Brand href="/" className={'d-flex align-items-center'}>
           <img
-              src={'https://cdn.haitrieu.com/wp-content/uploads/2021/10/Logo-DH-Cong-Nghe-UET.png'}
+              src={'https://storage.googleapis.com/teko-growth-dev/2022-06-15%2005:23:34.959321984%20+0000%20UTC%20m=+4199875.636865605-%5BLogo%5D%20UET%20Job%20Fair_White.png'}
               className="d-inline-block align-top"
               alt="Uet logo"
-              width={75}
               height={75}
-          /> {' '}
-          <b className={'m-2'}>UET Job Fair 2022</b>
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
