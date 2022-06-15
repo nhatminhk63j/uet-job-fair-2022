@@ -2,11 +2,19 @@
     background: rgba(0,0,0,.253);
     padding: 50px 20px;
     border-radius: 10px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .sponsor-card img {
     border-radius: 8px;
     margin-top: 30px;
+    padding: 10px;
+    background: white;
+    max-height: 100px;
+    width: 100%;
 }
 
 .sponsor-card h5 {
@@ -20,4 +28,11 @@
 
 .sponsor-title {
     color: #ed941c;
+}
+
+.sponsor-card .sponsor-logo {
+    width: 100%;
+    height: 100px;
+    background: white;
+    padding: 10px;
 }
