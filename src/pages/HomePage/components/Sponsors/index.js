@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
 import './style.css';
-import {Link} from 'react-router-dom';
 import {companyService} from '../../../../services';
 
 const Sponsors = () => {
@@ -15,7 +14,7 @@ const Sponsors = () => {
     });
   }, []);
 
-  return <div id={'sponsors'} className={'text-center mt-5'}>
+  return <div id={'sponsors'} className={'text-center mt-5 mb-5'}>
     <Container>
       <div className="d-flex justify-content-center mt-5 mb-5">
         <div className="line" />
@@ -29,7 +28,7 @@ const Sponsors = () => {
             sponsor.diamond?.map(sponsor => (<Col xs={12} md={6} xl={3}>
               <div className="sponsor-card mt-5">
                 <h5><a href={`/sponsors/${sponsor.id}`}>{sponsor.name}</a></h5>
-                <img src={sponsor.logo} alt={sponsor.name} />
+                <div className={'logo-sponsor'}><img src={sponsor.logo} alt={sponsor.name} /></div>
               </div>
             </Col>))}
       </Row>
@@ -42,7 +41,7 @@ const Sponsors = () => {
               <div className="sponsor-card d-flex flex-column mt-5">
                 <h5><a href={`/sponsors/${sponsor.id}`}>{sponsor.name}</a>
                 </h5>
-                <img src={sponsor.logo} alt={sponsor.name} />
+                <div className={'logo-sponsor'}><img src={sponsor.logo} alt={sponsor.name} /></div>
               </div>
             </Col>))}
       </Row>
@@ -55,7 +54,7 @@ const Sponsors = () => {
               <div className="sponsor-card d-flex flex-column mt-5">
                 <h5><a href={`/sponsors/${sponsor.id}`}>{sponsor.name}</a>
                 </h5>
-                <img src={sponsor.logo} alt={sponsor.name} />
+                <div className={'logo-sponsor'}><img src={sponsor.logo} alt={sponsor.name} /></div>
               </div>
             </Col>))}
       </Row>
@@ -68,7 +67,7 @@ const Sponsors = () => {
               <div className="sponsor-card d-flex flex-column mt-5">
                 <h5><a href={`/sponsors/${sponsor.id}`}>{sponsor.name}</a>
                 </h5>
-                <img src={sponsor.logo} alt={sponsor.name} />
+                <div className={'logo-sponsor'}><img src={sponsor.logo} alt={sponsor.name} /></div>
               </div>
             </Col>))}
       </Row>
@@ -81,7 +80,7 @@ const Sponsors = () => {
               <div className="sponsor-card d-flex flex-column mt-5">
                 <h5><a href={`/sponsors/${sponsor.id}`}>{sponsor.name}</a>
                 </h5>
-                <img src={sponsor.logo} alt={sponsor.name} />
+                <div className={'logo-sponsor'}><img src={sponsor.logo} alt={sponsor.name} /></div>
               </div>
             </Col>))}
       </Row>

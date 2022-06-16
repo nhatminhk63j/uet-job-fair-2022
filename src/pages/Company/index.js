@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Banner from '../HomePage/components/Banner';
-import {Col, Container, Row} from 'react-bootstrap';
+import {Col, Container, Navbar, Row} from 'react-bootstrap';
 import './style.css';
 import {Helmet} from 'react-helmet';
 import {useParams} from 'react-router-dom';
@@ -37,6 +37,20 @@ const Company = () => {
       <title>{company.name}</title>
       <meta name="description" content={company.description} />
     </Helmet>}
+    <div className={'menu'}>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="/" className={'d-flex align-items-center'}>
+            <img
+                src={'https://storage.googleapis.com/teko-growth-dev/2022-06-15%2005:23:34.959321984%20+0000%20UTC%20m=+4199875.636865605-%5BLogo%5D%20UET%20Job%20Fair_White.png'}
+                className="d-inline-block align-top"
+                alt="Uet logo"
+                height={75}
+            />
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
+    </div>
     <Banner />
     {!isLoading && company && <Container>
       <Row className={'mt-5'}>
