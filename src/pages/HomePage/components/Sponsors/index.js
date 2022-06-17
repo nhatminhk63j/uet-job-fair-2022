@@ -28,7 +28,9 @@ const Sponsors = () => {
             sponsor.diamond?.map(sponsor => (<Col xs={12} md={6} xl={3}>
               <div className="sponsor-card mt-5">
                 <h5><a href={`/sponsors/${sponsor.id}`}>{sponsor.name}</a></h5>
-                <div className={'logo-sponsor'}><img src={sponsor.logo} alt={sponsor.name} /></div>
+                <div className={'logo-sponsor'}><a href={sponsor.website}
+                                                   target={'_blank'}><img
+                    src={sponsor.logo} alt={sponsor.name} /></a></div>
               </div>
             </Col>))}
       </Row>
@@ -41,7 +43,9 @@ const Sponsors = () => {
               <div className="sponsor-card d-flex flex-column mt-5">
                 <h5><a href={`/sponsors/${sponsor.id}`}>{sponsor.name}</a>
                 </h5>
-                <div className={'logo-sponsor'}><img src={sponsor.logo} alt={sponsor.name} /></div>
+                <div className={'logo-sponsor'}><a href={sponsor.website}
+                                                   target={'_blank'}><img
+                    src={sponsor.logo} alt={sponsor.name} /></a></div>
               </div>
             </Col>))}
       </Row>
@@ -54,7 +58,9 @@ const Sponsors = () => {
               <div className="sponsor-card d-flex flex-column mt-5">
                 <h5><a href={`/sponsors/${sponsor.id}`}>{sponsor.name}</a>
                 </h5>
-                <div className={'logo-sponsor'}><img src={sponsor.logo} alt={sponsor.name} /></div>
+                <div className={'logo-sponsor'}><a href={sponsor.website}
+                                                   target={'_blank'}><img
+                    src={sponsor.logo} alt={sponsor.name} /></a></div>
               </div>
             </Col>))}
       </Row>
@@ -67,7 +73,9 @@ const Sponsors = () => {
               <div className="sponsor-card d-flex flex-column mt-5">
                 <h5><a href={`/sponsors/${sponsor.id}`}>{sponsor.name}</a>
                 </h5>
-                <div className={'logo-sponsor'}><img src={sponsor.logo} alt={sponsor.name} /></div>
+                <div className={'logo-sponsor'}><a href={sponsor.website}
+                                                   target={'_blank'}><img
+                    src={sponsor.logo} alt={sponsor.name} /></a></div>
               </div>
             </Col>))}
       </Row>
@@ -80,7 +88,9 @@ const Sponsors = () => {
               <div className="sponsor-card d-flex flex-column mt-5">
                 <h5><a href={`/sponsors/${sponsor.id}`}>{sponsor.name}</a>
                 </h5>
-                <div className={'logo-sponsor'}><img src={sponsor.logo} alt={sponsor.name} /></div>
+                <div className={'logo-sponsor'}><a href={sponsor.website}
+                                                   target={'_blank'}><img
+                    src={sponsor.logo} alt={sponsor.name} /></a></div>
               </div>
             </Col>))}
       </Row>

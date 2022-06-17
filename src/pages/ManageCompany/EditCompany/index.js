@@ -28,10 +28,10 @@ const EditCompany = () => {
   const onSubmit = () => {
     companyService.updateCompany(id, company).then(res => {
       notification.success({
-        message: "Update thành công"
-      })
-    })
-  }
+        message: 'Update thành công', duration: 2,
+      });
+    });
+  };
 
   return (<div className={'edit-company'}>
     <h2 className={'text-center m-5'}>Chỉnh sửa thông tin nhà tài trợ</h2>
@@ -59,28 +59,28 @@ const EditCompany = () => {
         <input
             defaultValue={company.website}
             placeholder={'Website ...'}
-            onChange={event => onChange('name', event.target.value)}
+            onChange={event => onChange('website', event.target.value)}
         />
 
         <h5 className={'mt-5'}>Số điện thoại</h5>
         <input
             defaultValue={company.phoneNumber}
             placeholder={'Số điện thoại ...'}
-            onChange={event => onChange('name', event.target.value)}
+            onChange={event => onChange('phoneNumber', event.target.value)}
         />
 
         <h5 className={'mt-5'}>Facebook</h5>
         <input
             defaultValue={company.facebook}
             placeholder={'Facebook ...'}
-            onChange={event => onChange('name', event.target.value)}
+            onChange={event => onChange('facebook', event.target.value)}
         />
 
         <h5 className={'mt-5'}>Linkedin</h5>
         <input
             defaultValue={company.linkedin}
             placeholder={'Linkedin ...'}
-            onChange={event => onChange('name', event.target.value)}
+            onChange={event => onChange('linkedin', event.target.value)}
         />
 
         <h5 className={'mt-5'}>Mô tả</h5>

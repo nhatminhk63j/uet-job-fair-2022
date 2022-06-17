@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import 'antd/dist/antd.css';
 import {Route, Router, Switch} from 'react-router-dom';
 import {createBrowserHistory} from 'history';
 import Company from './pages/Company';
