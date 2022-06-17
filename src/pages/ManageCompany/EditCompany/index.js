@@ -34,16 +34,16 @@ const EditCompany = () => {
   };
 
   return (<div className={'edit-company'}>
-    <h2 className={'text-center m-5'}>Chỉnh sửa thông tin nhà tài trợ</h2>
+    <h2 className={'text-center m-5 text-black'}>Chỉnh sửa thông tin nhà tài trợ</h2>
     {!isLoading && <Container>
       <>
-        <h5>Tên nhà tài trợ</h5>
+        <h5 className={'text-black'}>Tên nhà tài trợ</h5>
         <input
             defaultValue={company.name}
             placeholder={'Tên nhà tài trợ ...'}
             onChange={event => onChange('name', event.target.value)}
         />
-        <h5 className={'mt-5'}>Gói tài trợ</h5>
+        <h5 className={'mt-5 text-black'}>Gói tài trợ</h5>
         <select
             defaultValue={company.companyType}
             onChange={event => onChange('companyType', event.target.value)}
@@ -55,35 +55,35 @@ const EditCompany = () => {
           <option value="CompanyType">Đồng hành</option>
         </select>
 
-        <h5 className={'mt-5'}>Website</h5>
+        <h5 className={'mt-5 text-black'}>Website</h5>
         <input
             defaultValue={company.website}
             placeholder={'Website ...'}
             onChange={event => onChange('website', event.target.value)}
         />
 
-        <h5 className={'mt-5'}>Số điện thoại</h5>
+        <h5 className={'mt-5 text-black'}>Số điện thoại</h5>
         <input
             defaultValue={company.phoneNumber}
             placeholder={'Số điện thoại ...'}
             onChange={event => onChange('phoneNumber', event.target.value)}
         />
 
-        <h5 className={'mt-5'}>Facebook</h5>
+        <h5 className={'mt-5 text-black'}>Facebook</h5>
         <input
             defaultValue={company.facebook}
             placeholder={'Facebook ...'}
             onChange={event => onChange('facebook', event.target.value)}
         />
 
-        <h5 className={'mt-5'}>Linkedin</h5>
+        <h5 className={'mt-5 text-black'}>Linkedin</h5>
         <input
             defaultValue={company.linkedin}
             placeholder={'Linkedin ...'}
             onChange={event => onChange('linkedin', event.target.value)}
         />
 
-        <h5 className={'mt-5'}>Mô tả</h5>
+        <h5 className={'mt-5 text-black'}>Mô tả</h5>
         <ReactQuill theme="snow" value={company.description}
                     onChange={value => onChange('description', value)} />
       </>

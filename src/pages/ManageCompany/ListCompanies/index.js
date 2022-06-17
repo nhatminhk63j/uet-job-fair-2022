@@ -16,10 +16,10 @@ const ListCompanies = () => {
   }, []);
 
   return (<div className={'list-companies'}>
-        <h2 className={'text-center m-5'}>Quản lý nhà tài trợ</h2>
+        <h2 className={'text-center m-5 text-black'}>Quản lý nhà tài trợ</h2>
 
         <Container>
-          <h3 className={'mt-5'}>#1: Nhà tài trợ kim cương</h3>
+          <h3 className={'mt-5 text-black'}>#1: Nhà tài trợ kim cương</h3>
           <Table striped bordered hover>
             <thead>
             <tr>
@@ -41,7 +41,7 @@ const ListCompanies = () => {
             </tbody>
           </Table>
 
-          <h3 className={'mt-5'}>#2: Nhà tài trợ kim vàng</h3>
+          <h3 className={'mt-5 text-black'}>#2: Nhà tài trợ kim vàng</h3>
           <Table striped bordered hover>
             <thead>
             <tr>
@@ -63,7 +63,7 @@ const ListCompanies = () => {
             </tbody>
           </Table>
 
-          <h3 className={'mt-5'}>#3: Nhà tài trợ bạc</h3>
+          <h3 className={'mt-5 text-black'}>#3: Nhà tài trợ bạc</h3>
           <Table striped bordered hover>
             <thead>
             <tr>
@@ -85,7 +85,7 @@ const ListCompanies = () => {
             </tbody>
           </Table>
 
-          <h3 className={'mt-5'}>#4: Nhà tài trợ đồng</h3>
+          <h3 className={'mt-5 text-black'}>#4: Nhà tài trợ đồng</h3>
           <Table striped bordered hover>
             <thead>
             <tr>
@@ -107,7 +107,7 @@ const ListCompanies = () => {
             </tbody>
           </Table>
 
-          <h3 className={'mt-5'}>#5: Doanh nghiệp đồng hành</h3>
+          <h3 className={'mt-5 text-black'}>#5: Doanh nghiệp đồng hành</h3>
           <Table striped bordered hover>
             <thead>
             <tr>
