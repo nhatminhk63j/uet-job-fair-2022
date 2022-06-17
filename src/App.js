@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import 'antd/dist/antd.css';
-import {Route, Router, Switch} from 'react-router-dom';
+import {Route, BrowserRouter, Switch} from 'react-router-dom';
 import {createBrowserHistory} from 'history';
 import Company from './pages/Company';
 import ListCompanies from './pages/ManageCompany/ListCompanies';
@@ -15,10 +15,9 @@ const browserHistory = createBrowserHistory();
 
 function App() {
   return (<div className={'App'}>
-    <Router history={browserHistory}>
+    <BrowserRouter history={browserHistory}>
       <Switch>
-        <Route path="/" exact>
-          <HomePage />
+        <Route exact path="/" component={HomePage}>
         </Route>
         <Route path="/sponsors/:id" exact>
           <Company />
@@ -30,7 +29,7 @@ function App() {
           <EditCompany />
         </Route>
       </Switch>
-    </Router>
+    </BrowserRouter>
   </div>);
 }
 

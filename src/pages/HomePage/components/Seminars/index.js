@@ -27,7 +27,7 @@ const settings = {
 };
 
 const Seminars = () => {
-  return <div id={'seminars'} className={'text-center mt-5'}>
+  return <section id={'seminars'} className={'text-center mt-5'}>
     <Container>
       <div className="d-flex justify-content-center mt-5">
         <div className="line" />
@@ -63,7 +63,7 @@ const Seminars = () => {
         </div>
       </Slider>
     </Container>
-  </div>;
+  </section>;
 };
 
 export default Seminars;

@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import smoothScrollPolyfill from 'smoothscroll-polyfill';
+
+smoothScrollPolyfill.polyfill();
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(

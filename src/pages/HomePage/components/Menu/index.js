@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Container, Nav, Navbar} from 'react-bootstrap';
+import { HashLink, NavHashLink } from 'react-router-hash-link';
 import './style.css';
 
 const Menu = () => {
@@ -17,11 +18,14 @@ const Menu = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className={'justify-content-end flex-grow-1 pe-3'}>
-            <Nav.Link href="#seminars">Hội thảo</Nav.Link>
+            <Nav.Link eventKey={1} href="#seminars">Hội thảo</Nav.Link>
             <Nav.Link eventKey={2} href="#timeline">
               Timeline
             </Nav.Link>
-            <Nav.Link href="#contact" eventKey={3}>
+            <Nav.Link eventKey={3} href="#sponsors">
+              Doanh nghiệp tài trợ
+            </Nav.Link>
+            <Nav.Link href="#contact" eventKey={4}>
               Liên hệ
             </Nav.Link>
           </Nav>
