@@ -82,6 +82,19 @@ const EditCompany = () => {
             placeholder={'Linkedin ...'}
             onChange={event => onChange('linkedin', event.target.value)}
         />
+        <h5 className={'mt-5 text-black'}>Email</h5>
+        <input
+            defaultValue={company.linkedin}
+            placeholder={'Email ...'}
+            onChange={event => onChange('email', event.target.value)}
+        />
+
+        <h5 className={'mt-5 text-black'}>Địa chỉ</h5>
+        <input
+            defaultValue={company.linkedin}
+            placeholder={'Địa chỉ ...'}
+            onChange={event => onChange('address', event.target.value)}
+        />
 
         <h5 className={'mt-5 text-black'}>Mô tả</h5>
         <ReactQuill theme="snow" value={company.description}
