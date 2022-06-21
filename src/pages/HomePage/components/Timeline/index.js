@@ -63,15 +63,15 @@ const Timeline = () => {
         </div>
       </div>
 
-      <div className="timeline-row">
-        <div className="timeline-time">
-          Tối thứ Tư, ngày 29/6/2022<small></small>
-        </div>
-        <div className="timeline-content">
-          <h4>Dấu ấn K63</h4>
-          <p>Gala chia tay sinh viên K63</p>
-        </div>
-      </div>
+      {/*<div className="timeline-row">*/}
+      {/*  <div className="timeline-time">*/}
+      {/*    Tối thứ Tư, ngày 29/6/2022<small></small>*/}
+      {/*  </div>*/}
+      {/*  <div className="timeline-content">*/}
+      {/*    <h4>Dấu ấn K63</h4>*/}
+      {/*    <p>Gala chia tay sinh viên K63</p>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
     </div>
   </Container>);
 };
